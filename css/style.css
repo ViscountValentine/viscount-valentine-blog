@@ -1,5 +1,5 @@
 body {
-  background: #FFF;
+  background: #A9A9A9;
 }
 
 .site {
@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-family: 'Nunito', sans-serif;
-  font-size: 50px;
+  font-size: 32px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -25,6 +25,10 @@ p {
   line-height: 1.3em;
   padding: 15px;
   color: #333;
+}
+
+hr {
+  border: solid #AAC9CE;
 }
 
 a {
@@ -63,6 +67,15 @@ aside {
 footer {
   width:100%;
   display: inline-block;
+}
+
+.topics {
+  color: #aac9cf;
+}
+
+.title {
+  width: 100%;
+  float: left;
 }
 
 .featured-img {
@@ -117,4 +130,8 @@ nav a:hover {
 
 .date-and-time {
   font-size: 15px;
+}
+
+.counter {
+  padding: 10px;
 }
